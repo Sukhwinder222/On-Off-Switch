@@ -1,0 +1,33 @@
+body{
+    background: #3399ff 5%;
+}
+
+#switch{
+    position: absolute;
+    left: 42%;
+    top:35%;
+    width: 150px;
+    height: 80px;
+    background-color: lightgray;
+    border: thick black;
+    border-radius: 30px;
+}
+
+#btn{
+    margin:8%;
+    width: 55px;
+    height: 55px;
+    background-color: #3399ff;
+    border-radius: 30px ;
+    transition: 1s;
+}
+p{
+    color: white;
+    position: absolute;
+    margin: 5%;
+    font-size: 18px;
+    transition: 0.2s;
+}
+#poweron{
+    visibility: hidden;
+}
